@@ -1,0 +1,19 @@
+{
+  "name": "meetyou-socketio",
+  "version": "1.0.0",
+  "description": "socketio for meetyou for real communication",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "NODE_ENV=local node app.js"
+  },
+  "author": "Arif Khan",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.5",
+    "express": "^4.16.4",
+    "redis": "^2.8.0",
+    "socket.io": "^2.1.1",
+    "socket.io-redis": "^5.2.0"
+  }
+}

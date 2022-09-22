@@ -1,0 +1,14 @@
+{
+  "name": "post-confirm-trigger",
+  "version": "1.0.0",
+  "description": "This script invoke by cognito after confirmed",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Arif Khan",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^1.6.3"
+  }
+}
